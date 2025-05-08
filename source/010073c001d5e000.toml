@@ -1,0 +1,23 @@
+title_id = 0x010073c001d5e000
+code_patch = [
+    { addr = 0x513e05d0, value = 0xd503201f }, # Jump to heap
+    { addr = 0x402cbecc, value = 0xd503201f }, # Audio
+
+    # Error 0x2a2 after loading a file and allocating + mapping GPU memory
+    { addr = 0x402bcb58, value = 0xd503201f },
+
+    { addr = 0x4029ff3c, value = 0xd503201f },
+    { addr = 0x4029ff44, value = 0xd503201f },
+    { addr = 0x402a004c, value = 0xd503201f },
+    { addr = 0x402a005c, value = 0xd503201f },
+
+    { addr = 0x401d8208, value = 0xd503201f }, # This one doesn't seem to do anything with GPU
+
+    { addr = 0x40131060, value = 0xd503201f },
+    { addr = 0x401cbd64, value = 0xd503201f },
+    { addr = 0x401cbd6c, value = 0xd503201f },
+
+    { addr = 0x4025f584, value = 0xd503201f },
+
+    { addr = 0x4004e958, value = 0xd503201f },
+]
