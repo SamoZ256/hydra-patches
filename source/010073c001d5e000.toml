@@ -1,5 +1,5 @@
 title_id = 0x010073c001d5e000
-code_patch = [
+memory_patch = [
     { addr = 0x513e05d0, value = 0xd503201f }, # Jump to heap
     { addr = 0x402cbecc, value = 0xd503201f }, # Audio
 
