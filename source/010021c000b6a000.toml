@@ -1,0 +1,6 @@
+# The Binding of Isaac
+
+memory_patch = [
+    { addr = 0x414535d0, value = 0xd503201f }, # Jump to heap
+    { addr = 0x40244354, value = 0xd503201f }, # HV exception
+]

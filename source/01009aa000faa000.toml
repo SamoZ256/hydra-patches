@@ -1,0 +1,5 @@
+# Sonic Mania
+
+memory_patch = [
+    { addr = 0x4144170c, value = 0xd503201f }, # Jump to heap
+]
