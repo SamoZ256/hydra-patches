@@ -1,0 +1,5 @@
+# Stardew Valley
+
+memory_patch = [
+    { addr = 0x4006e598, value = 0xd503201f }, # Audio
+]

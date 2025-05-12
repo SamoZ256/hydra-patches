@@ -1,6 +1,3 @@
 # Cave Story +
 
-memory_patch = [
-    { addr = 0x4127f50c, value = 0xd503201f }, # Jump to heap
-    { addr = 0x42e81a48, value = 0xd2800000 }, # InstructionAbortSameEl
-]
+memory_patch = []
