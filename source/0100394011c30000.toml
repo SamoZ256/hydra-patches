@@ -1,0 +1,5 @@
+# Scott Pilgrim vs The World The Game
+
+memory_patch = [
+    #{ addr = 0x42cbd0a0, value = 0xd503201f }, # Audio
+]

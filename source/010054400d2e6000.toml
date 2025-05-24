@@ -1,0 +1,9 @@
+# Virtua racing
+
+memory_patch = [
+    { addr = 0x402756e0, value = 0xd503201f }, # Abort after deque and request buffer
+    #{ addr = 0x40000410, value = 0xd503201f }, # Audio
+    #{ addr = 0x400003c4, value = 0xd503201f }, # Audio
+
+    { addr = 0x40274d0c, value = 0xd503201f }, # Abort after queue buffer
+]

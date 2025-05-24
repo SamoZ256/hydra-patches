@@ -1,5 +1,10 @@
 # Stardew Valley
 
 memory_patch = [
-    { addr = 0x4006e598, value = 0xd503201f }, # Audio
+    #{ addr = 0x4006e598, value = 0xd503201f }, # Audio
+
+    # Mutex locks and invalid addresses
+    #{ addr = 0x40038100, value = 0xd503201f },
+    #{ addr = 0x406ce6f8, value = 0xd503201f },
+    { addr = 0x408554b8, value = 0xd503201f }, # System::AggregateException*
 ]

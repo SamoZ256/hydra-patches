@@ -1,7 +1,7 @@
 # Puyo Puyo Tetris
 
 memory_patch = [
-    { addr = 0x402cbecc, value = 0xd503201f }, # Audio
+    #{ addr = 0x402cbecc, value = 0xd503201f }, # Audio
 
     # Error 0x2a2 after loading a file and allocating + mapping GPU memory
     { addr = 0x402bcb58, value = 0xd503201f },

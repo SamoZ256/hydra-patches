@@ -1,0 +1,5 @@
+# Super Mario Odyssey
+
+memory_patch = [
+    #{ addr = 0x40a9fa84, value = 0xd503201f }, # Audio
+]

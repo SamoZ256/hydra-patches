@@ -1,0 +1,6 @@
+# Splatoon 2
+
+memory_patch = [
+    { addr = 0x41257810, value = 0xd503201f }, # Jump to 0x0
+    { addr = 0x412893b0, value = 0xd503201f }, # Jump to heap
+]
