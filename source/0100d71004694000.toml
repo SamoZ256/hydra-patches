@@ -1,0 +1,14 @@
+# Minecraft
+
+memory_patch = [
+    { addr = 0x404f5d14, value = 0xd503201f }, # Firmware title
+
+    # 0x437b9298
+    # 0x43455e84
+    # 0x434452b8
+    # 0x43447688
+    # 0x409b9920
+    # 0x409b943c
+    # 0x409b96f0
+    { addr = 0x409b96f0, value = 0xd503201f }, # Data abort after a lot of save data reads
+]

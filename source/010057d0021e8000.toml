@@ -1,7 +1,3 @@
 # Shovel Knight
 
-memory_patch = [
-    #{ addr = 0x405142c8, value = 0xd503201f }, # Audio
-
-    { addr = 0x42285e2c, value = 0xd2800000 }, # Set result code to NVN_WINDOW_ACQUIRE_TEXTURE_RESULT_SUCCESS in nvnQueueAcquireTexture
-]
+memory_patch = []
