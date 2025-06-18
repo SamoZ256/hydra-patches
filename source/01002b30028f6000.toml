@@ -1,0 +1,5 @@
+# Celeste
+
+memory_patch = [
+    { addr = 0x453d64b8, value = 0xd503201f }, # Error SVC invalid state after some HID stuff
+]

@@ -1,0 +1,12 @@
+# Youtube
+
+memory_patch = [
+    { addr = 0x400840b4, value = 0xd503201f }, # GetAccountId
+
+    # Init memory allocator
+    #{ addr = 0x863c2c4c, value = 0xd503201f }, # Abort after TotalSystemResourceSize
+    #{ addr = 0x863c2c6c, value = 0xd503201f }, # Abort after TotalSystemResourceSize
+    #{ addr = 0x863c2bd4, value = 0xd503201f }, # Data abort
+
+    #{ addr = 0x863ba0dc, value = 0xd503201f }, # Data abort
+]

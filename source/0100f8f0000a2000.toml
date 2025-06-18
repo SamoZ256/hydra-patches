@@ -1,6 +1,27 @@
 # Splatoon 2
 
 memory_patch = [
+    #{ addr = 0x41257810, value = 0xd503201f }, # Jump to 0x0
+    #{ addr = 0x412893b0, value = 0xd503201f }, # Jump to heap
+
+    #{ addr = 0x413a6f98, value = 0xd503201f }, # Data abort
+    #{ addr = 0x411fc944, value = 0xd503201f }, # Data abort
+    #{ addr = 0x400b5ad8, value = 0xd503201f }, # Data abort
+    #{ addr = 0x400b5b0c, value = 0xd503201f }, # Data abort
+    #{ addr = 0x400b5fc4, value = 0xd503201f }, # Data abort
+    #{ addr = 0x4019d164, value = 0xd503201f }, # Data abort, TODO
+
+    #{ addr = 0x4111cf3c, value = 0xd503201f }, # Jump to 0x0
+
     { addr = 0x41257810, value = 0xd503201f }, # Jump to 0x0
-    { addr = 0x412893b0, value = 0xd503201f }, # Jump to heap
+
+    { addr = 0x41130fb0, value = 0xd503201f }, # Jump to heap
+    #{ addr = 0x4112e704, value = 0xd503201f }, # Jump to heap
+    #{ addr = 0x4112e714, value = 0xd503201f }, # Jump to heap
+    #{ addr = 0x4112e8a4, value = 0xd503201f }, # Jump to heap
+
+    { addr = 0x4112f650, value = 0xd503201f }, # Jump to heap
+    { addr = 0x412436d4, value = 0xd503201f }, # Jump to heap
+
+    #{ addr = 0x40e67dc4, value = 0xd503201f }, # Wait for display loop
 ]

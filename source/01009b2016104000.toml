@@ -1,0 +1,6 @@
+# PICROSS S7
+
+memory_patch = [
+    #{ addr = 0x433be220, value = 0xd503201f }, # TotalSystemResourceSize
+    #{ addr = 0x433be240, value = 0xd503201f }, # TotalSystemResourceSize
+]

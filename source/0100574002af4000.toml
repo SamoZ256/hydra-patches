@@ -1,0 +1,5 @@
+# ONE PIECE Unlimited World
+
+memory_patch = [
+    { addr = 0x4051ce04, value = 0xd503201f }, # Jump to 0x0 after GetReleasedAudioOutBuffers
+]

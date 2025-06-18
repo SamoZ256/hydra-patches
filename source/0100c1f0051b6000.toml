@@ -1,0 +1,6 @@
+# Donkey Kong Country Tropical Freeze
+
+memory_patch = [
+    { addr = 0x4656b424, value = 0xd503201f }, # SetHeapSize
+    #{ addr = 0x46543d68, value = 0xd2800020 }, # TotalSystemResourceSize
+]

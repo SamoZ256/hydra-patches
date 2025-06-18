@@ -1,0 +1,7 @@
+# Wonder Boy
+
+memory_patch = [
+    #{ addr = 0x4018e200, value = 0xd503201f }, # TotalNonSystemMemorySize
+    #{ addr = 0x4018e158, value = 0xd503201f }, # TotalNonSystemMemorySize
+    { addr = 0x4833ebc4, value = 0xd503201f }, # TotalNonSystemMemorySize
+]

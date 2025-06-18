@@ -1,0 +1,8 @@
+# Dragon Quest Builder 2
+
+memory_patch = [
+    { addr = 0x400849dc, value = 0xd503201f }, # Data abort and crash
+    { addr = 0x408772bc, value = 0xd503201f }, # Data abort
+    #{ addr = 0x408b4d28, value = 0xd503201f }, # Data abort
+    #{ addr = 0x408773bc, value = 0xd503201f }, # Data abort
+]

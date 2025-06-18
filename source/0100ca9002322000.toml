@@ -1,0 +1,5 @@
+# SteamWorld Dig 2
+
+memory_patch = [
+    #{ addr = 0x404402ec, value = 0xd503201f }, # Data abort
+]

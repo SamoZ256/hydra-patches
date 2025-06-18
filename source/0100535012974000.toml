@@ -1,0 +1,10 @@
+# Hades
+
+memory_patch = [
+    { addr = 0x404f62a0, value = 0xd503201f }, # Crash
+
+    { addr = 0x437fead4, value = 0xd503201f }, # loader_get_instance in Vulkan
+    { addr = 0x4380df48, value = 0xd503201f }, # vkEnumerateDeviceExtensionProperties in Vulkan
+
+    #{ addr = 0x404f8638, value = 0xd503201f }, # Data abort (0x404f65b8, 0x4026a03c)
+]

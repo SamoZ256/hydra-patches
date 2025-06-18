@@ -1,0 +1,6 @@
+# Spelunky
+
+memory_patch = [
+    { addr = 0x411ce34c, value = 0xd503201f }, # Abort after audren update
+    { addr = 0x411ce3d4, value = 0xd503201f }, # UnexpectedDefaultImpl in audio::GetMemoryPoolState
+]

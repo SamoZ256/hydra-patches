@@ -1,5 +1,18 @@
 # Super Mario Odyssey
 
 memory_patch = [
-    #{ addr = 0x40a9fa84, value = 0xd503201f }, # Audio
+    #{ addr = 0x40535ae4, value = 0xd503201f }, # Audio
+    #{ addr = 0x40536234, value = 0xd503201f }, # Audio
+    #{ addr = 0x405366f8, value = 0xd503201f }, # Audio
+
+    #{ addr = 0x40a2bbcc, value = 0xd503201f }, # Audio
+    #{ addr = 0x404aa3d4, value = 0xd503201f }, # Audio
+    #{ addr = 0x404aa404, value = 0xd503201f }, # Audio
+    #{ addr = 0x404aa474, value = 0xd503201f }, # Audio
+    #{ addr = 0x404aa48c, value = 0xd503201f }, # Audio
+    #{ addr = 0x404aa498, value = 0xd503201f }, # Audio
+    #{ addr = 0x404aa4a4, value = 0xd503201f }, # Audio
+
+    #{ addr = 0x40a91b4c, value = 0xd503201f }, # Audio
+
 ]

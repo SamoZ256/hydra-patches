@@ -1,0 +1,14 @@
+# Super Mario Bros. Wonder
+
+memory_patch = [
+    #{ addr = 0x4097891c, value = 0xd503201f }, # Data aborts with increasing recursion
+    #{ addr = 0x41cacb1c, value = 0xd503201f }, # Data aborts
+    #{ addr = 0x400f20bc, value = 0xd503201f }, # Data aborts
+    #{ addr = 0x43a9f9d0, value = 0xd503201f }, # Data aborts with increasing recursion
+    #{ addr = 0x400e18d0, value = 0xd503201f }, # Data aborts
+    #{ addr = 0x400e1910, value = 0xd503201f }, # Data aborts
+    #{ addr = 0x41cea748, value = 0xd503201f }, # Crash
+    #{ addr = 0x40647644, value = 0xd503201f }, # Crash
+    #{ addr = 0x40647628, value = 0xd503201f }, # Crash
+    #{ addr = 0x40647660, value = 0xd503201f }, # Crash
+]
