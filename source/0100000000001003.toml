@@ -1,0 +1,5 @@
+# controller applet
+
+memory_patch = [
+    { addr = 0x40327080, value = 0xd503201f }, # Abort after dequeuing and requesting a display buffer
+]
