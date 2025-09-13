@@ -1,0 +1,6 @@
+# Subnautica
+
+memory_patch = [
+    #{ addr = 0x4595205c, value = 0xd503201f }, # Abort after nn::nlibsdk::heap::CentralHeap::Init
+    #{ addr = 0x4595207c, value = 0xd503201f }, # Abort after nn::nlibsdk::heap::CentralHeap::Init
+]

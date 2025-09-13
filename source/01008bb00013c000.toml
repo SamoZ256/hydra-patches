@@ -1,0 +1,5 @@
+# flog (system app)
+
+memory_patch = [
+    { addr = 0x400090a0, value = 0xd503201f }, # Abort
+]

@@ -1,0 +1,5 @@
+# nvnflinger
+
+memory_patch = [
+    { addr = 0x400e65a4, value = 0xd503201f }, # Data abort
+]

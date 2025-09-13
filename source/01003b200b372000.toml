@@ -1,0 +1,19 @@
+# Hyper Light Drifter
+
+memory_patch = [
+    #{ addr = 0x43b5d1f0, value = 0xd503201f }, # Data abort
+    # 0x436091cc
+    # 0x4391ea70
+    # 0x4391e138
+    # 0x43a2d4a8
+    # 0x43769f04
+    # 0x437447b4
+    # 0x4128cfa0
+    # 0x4128d474
+    # 0x4128d4c0
+    # 0x412909f8
+    # 0x41289cf8
+    { addr = 0x4128cfa0, value = 0xd503201f }, # Jump to 0x1
+    #{ addr = 0x43608c28, value = 0xd503201f }, # Jump to 0x31
+    #{ addr = 0x41210404, value = 0xd503201f }, # Jump to 0x1
+]

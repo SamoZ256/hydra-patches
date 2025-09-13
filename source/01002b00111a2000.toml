@@ -1,0 +1,6 @@
+# Hyrule Warriors: Age of Calamity
+
+memory_patch = [
+    #{ addr = 0x408113f4, value = 0xd4200000 },
+    #{ addr = 0x40832428, value = 0xd2801fe0 }, # A function return 0x0 as an address, set it to 0xff instead
+]
